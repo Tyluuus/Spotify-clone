@@ -18,6 +18,9 @@
 		D67C8CFB27C427700058D2E7 /* RecommendedGenresResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67C8CFA27C427700058D2E7 /* RecommendedGenresResponse.swift */; };
 		D67C8CFD27C42A350058D2E7 /* RecommendationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67C8CFC27C42A350058D2E7 /* RecommendationsResponse.swift */; };
 		D67DCC3327C2B5E40067A694 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67DCC3227C2B5E40067A694 /* AuthResponse.swift */; };
+		D68B71C027CA661200E59A91 /* NewReleasesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68B71BF27CA661200E59A91 /* NewReleasesCellViewModel.swift */; };
+		D68B71C227CD2C4E00E59A91 /* FeaturedPlaylistCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68B71C127CD2C4E00E59A91 /* FeaturedPlaylistCellViewModel.swift */; };
+		D68B71C427CD2C8B00E59A91 /* RecommendedTrackCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68B71C327CD2C8B00E59A91 /* RecommendedTrackCellViewModel.swift */; };
 		D6A846AA27BEEFD2000BD7E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A846A927BEEFD2000BD7E4 /* AppDelegate.swift */; };
 		D6A846AC27BEEFD2000BD7E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A846AB27BEEFD2000BD7E4 /* SceneDelegate.swift */; };
 		D6A846AE27BEEFD2000BD7E4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A846AD27BEEFD2000BD7E4 /* HomeViewController.swift */; };
@@ -56,6 +59,9 @@
 		D67C8CFA27C427700058D2E7 /* RecommendedGenresResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedGenresResponse.swift; sourceTree = "<group>"; };
 		D67C8CFC27C42A350058D2E7 /* RecommendationsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsResponse.swift; sourceTree = "<group>"; };
 		D67DCC3227C2B5E40067A694 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		D68B71BF27CA661200E59A91 /* NewReleasesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesCellViewModel.swift; sourceTree = "<group>"; };
+		D68B71C127CD2C4E00E59A91 /* FeaturedPlaylistCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistCellViewModel.swift; sourceTree = "<group>"; };
+		D68B71C327CD2C8B00E59A91 /* RecommendedTrackCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCellViewModel.swift; sourceTree = "<group>"; };
 		D6A846A627BEEFD2000BD7E4 /* SpotifyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A846A927BEEFD2000BD7E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6A846AB27BEEFD2000BD7E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +191,9 @@
 		D6A846C027BEF05F000BD7E4 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D68B71BF27CA661200E59A91 /* NewReleasesCellViewModel.swift */,
+				D68B71C127CD2C4E00E59A91 /* FeaturedPlaylistCellViewModel.swift */,
+				D68B71C327CD2C8B00E59A91 /* RecommendedTrackCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -361,7 +370,10 @@
 				D6A846C627BEF58C000BD7E4 /* SearchViewController.swift in Sources */,
 				D6A846E027BEF6DA000BD7E4 /* Playlist.swift in Sources */,
 				D6A846DA27BEF634000BD7E4 /* AuthManager.swift in Sources */,
+				D68B71C027CA661200E59A91 /* NewReleasesCellViewModel.swift in Sources */,
+				D68B71C427CD2C8B00E59A91 /* RecommendedTrackCellViewModel.swift in Sources */,
 				D6A846D827BEF619000BD7E4 /* SearchResultsViewController.swift in Sources */,
+				D68B71C227CD2C4E00E59A91 /* FeaturedPlaylistCellViewModel.swift in Sources */,
 				D67C8CF927C423770058D2E7 /* FeaturedPlaylistResponse.swift in Sources */,
 				D67C8CF727C41BB00058D2E7 /* APIImage.swift in Sources */,
 				D6A846CE27BEF5D0000BD7E4 /* WelcomeViewController.swift in Sources */,
